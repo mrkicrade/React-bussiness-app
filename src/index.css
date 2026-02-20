@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-mainBlue: #0D1337;
+  --color-lightBLue: #0B254B;
+  --color-lightGray: #CACACA;
+
+  /* --color-bg: #FFFFFF; */
+}
+
+.active {
+  color: red;
+}
+
+
