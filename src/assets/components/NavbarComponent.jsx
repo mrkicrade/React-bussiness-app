@@ -1,6 +1,6 @@
 import React from 'react';
-import logo from '../Imoodev.png';
-import darkLogo from '../darkImoodev.png';
+import logo from '../images/Imoodev.png';
+import darkLogo from '../images/darkImoodev.png';
 import { NavLink } from 'react-router-dom';
 
 // I C O N S

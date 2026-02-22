@@ -3,6 +3,7 @@ import { Outlet } from 'react-router'
 import { useState,useEffect } from 'react'
 import NavbarComponent from './assets/components/NavbarComponent';
 
+
 function App() {
 
   const [activeDark, setActiveDark] = useState(true);
@@ -16,8 +17,10 @@ function App() {
     <div className={activeDark ? 'dark dark:bg-mainBlue' : ''}>
     
       <NavbarComponent activeDark={activeDark} setActiveDark={setActiveDark} />
+      
 
-      <Outlet />
+
+      <Outlet context={{ activeDark, setActiveDark }} />
     </div>
   )
 }

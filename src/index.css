@@ -4,8 +4,13 @@
 
 @theme {
   --color-mainBlue: #0D1337;
-  --color-lightBLue: #0B254B;
+  --color-lightBlue: #0B254B;
   --color-lightGray: #CACACA;
+  --color-mainOrange: #FF6F29;
+  --color-mainGray: #7A7A7A;
+  --color-iconBlue: #00B4D8;
+  --color-iconViolet: #7400B8;
+  --color-iconRed: #FF4D6D;
 
   /* --color-bg: #FFFFFF; */
 }
