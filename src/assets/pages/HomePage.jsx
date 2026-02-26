@@ -2,6 +2,8 @@ import React from 'react'
 import HeroComponent from '../components/HeroComponent'
 import CustomersComponents from '../components/CustomersComponents'
 import { useOutletContext } from "react-router";
+import ImoodevComponent from '../components/ImoodevComponent';
+
 
 const HomePage = () => {
   const { activeDark } = useOutletContext();
@@ -11,6 +13,7 @@ const HomePage = () => {
     <>
       <HeroComponent />
       <CustomersComponents activeDark={activeDark} />
+      <ImoodevComponent />
     </>
   )
 }

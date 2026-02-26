@@ -14,7 +14,7 @@ function CustomersComponents({activeDark}) {
         <div className='container mx-auto flex justify-between lg:flex-row flex-col items-center gap-[30px]'>    
             <div className='w-[50%]'>
                 <span className='text-mainOrange text-[24px] font-bold'>What Does Imoodev Do?</span>
-                <h2 className='text-[42px] font-bold text-mainBlue dark:text-white'>Analyzing Target <br /> Customers with the Right!</h2>
+                <h2 className='text-[42px] font-bold text-mainBlue dark:text-white mb-[40px]'>Analyzing Target <br /> Customers with the Right!</h2>
             </div>
             <div className='w-[50%] mb-[40px]'>
                 <p className='text-mainGray dark:text-white text-[16px]'>Do not miss this opportunity. With our experience, Whello will find something unique in your brand. Analyze and try to follow what your audience really likes and is looking for, so that your customers will be more loyal to you.</p>
